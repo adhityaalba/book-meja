@@ -1,0 +1,40 @@
+GET http://localhost:8000/booked
+
+###
+
+GET http://localhost:5000/time
+
+
+
+###
+
+POST http://localhost:8000/booked
+Content-Type:application/json
+
+{
+    "name" : "yaa",
+    "email" : "adhitayaasdsadasdsa@gmail.com",
+    "pax" :4,
+    "tanggal":"2024-01-26 ",
+    "waktu": "01:20",
+    "table" : 1
+
+
+}
+
+###
+
+PATCH  http://localhost:8000/booked/1
+Content-Type: application/javascript
+
+{
+    "name" : "Adhit Update",
+    "email" : "adhitayupdatea@gmail.com",
+    "gender" : "laki"
+
+}
+
+
+###
+DELETE  http://localhost:8000/booked/1
+ 
