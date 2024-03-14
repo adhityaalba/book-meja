@@ -1,0 +1,79 @@
+.containerDash {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  justify-content: center;
+}
+
+/* Dim and disable the button while the form is invalid */
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 50%;
+  font-family: monospace;
+  padding: 0.25em 0.5em;
+}
+
+fieldset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.selectTime {
+  width: 20%;
+  border: 2px black solid;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.option button {
+  width: max-content;
+}
+
+button {
+  margin-top: 30px;
+  width: 50%;
+  border: thin solid darkgrey;
+  font-size: 1.25em;
+  background-color: darkgrey;
+  color: white;
+}
+
+.containerMeja {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.subMeja {
+  gap: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 70%;
+  flex-wrap: wrap;
+}
+
+.meja {
+  border: 2px solid cyan;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.terisi {
+  background-color: red;
+}
+
+.tersedia {
+  background-color: green;
+}
